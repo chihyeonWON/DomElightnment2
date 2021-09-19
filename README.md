@@ -1,2 +1,2 @@
 # DomElightnment2
-Studying Book "DomElightnment" 's Chapter 2
+Studying Book "DomEnlightenment" 's Second Chapter Exercise

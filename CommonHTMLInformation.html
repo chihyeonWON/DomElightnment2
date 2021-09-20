@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Common HTML Document information </title>
+</head>
+<body>
+    
+    <script>
+
+        var d = document;
+        console.log("title = "+d.title);
+        console.log("url = "+d.URL);
+        console.log("referrer "+d.referrer);
+        console.log("lastModified "+d.lastModified);
+
+        //BackCompat(Quirks 모드 )또는 CSS1Compat(Strict 모드) 중 하나가 출력된다.
+        console.log("compatibility mode = "+d.compatMode);
+        
+    </script>
+</body>
+</html>

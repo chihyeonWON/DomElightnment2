@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Child Nodes</title>
+</head>
+<body>
+    
+    <script>
+        //doctype/DTD
+        console.log(document.childNodes[0].nodeType); /* DOCUMENT_TYPE_NODE를 의미하는 숫자 키 10이 출력된다 */
+
+        //<html> element
+        console.log(document.childNodes[1].nodeType); /* ELEMENT_TYPE_NODE를 의미하는 숫자 키 1이 출력된다 */
+
+    </script>
+</body>
+</html>

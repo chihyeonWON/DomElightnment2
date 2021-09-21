@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to use document.activeElement to get active node or focus inside document</title>
+</head>
+<body>
+    
+    <textarea></textarea>
+    <script>
+
+        //<textarea>에 포커스 설정
+        document.querySelector("textarea").focus();
+
+        //문서 내에서 포커스를 가지고 있거나 활성 상태인 element에 대한 참조를 얻음
+        console.log(document.activeElement); //<textarea>가 출력됨
+            
+    </script>
+</body>
+</html>
